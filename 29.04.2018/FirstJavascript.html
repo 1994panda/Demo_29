@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head><script type="text/javascript" src="First.js"></script></head>
+<body>
+    
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="demo" class="ex">JavaScript can hide HTML elements.</p>
+
+    <button type="button" onclick=fun1()>Click Me!</button>
+
+    <button type="button" onclick=fun2()>Click Me!</button>
+    <button type="button" onclick=fun3()>Click Me!</button>
+    <button type="button" onclick=fun4()>add</button>
+    <button type="button" onclick="fun6()">type test</button>
+    <button type="button" onclick="fun7()">String to Array</button>
+    <script>
+var a = 3;
+var x = (100 + 50) * a;
+       
+document.getElementById("demo").innerHTML = x;
+document.writeln(fun5(5, 4));
+
+var str = "Apple, Banana, Kiwi";
+var res = str.substring(7, 13);
+document.getElementById("demo").innerHTML = res;
+var res2 = str.slice(7);
+document.getElementById("demo").innerHTML = res2;
+
+    </script>
+</body>
+</html>
